@@ -1,0 +1,839 @@
+.el-button{
+	background-color: #FF6666 !important;
+    color: #000000 !important;
+	font-size: 1.0625rem !important;
+	font-weight: 600 !important;
+	
+}
+
+.sign_in {
+    background-image: url(../img/bg.jpg) !important;
+    background-size:100% 100% !important;
+	background-repeat: no-repeat !important;
+}
+/* 导航栏展开宽度 */
+.el-menu-vertical-demo[data-v-230c6473]:not(.el-menu--collapse) {
+    /* width: 100% !important; */
+	
+	/* background-color: #00FFFF !important ; */
+}
+/* 导航栏高度 */
+.side{
+   /* height: auto !important; */
+
+}
+p .el-form-item {
+    margin-bottom: 22px;
+    display: -webkit-inline-box;
+    
+    margin-left: 20px;
+
+}
+
+p .el-button--danger {
+    margin-left: 20px;
+	/* background-color: #26D2FF !important; */
+}
+
+/* 页面搜索栏与列表左右布局
+.formAndtable_box{
+    display: flex;
+    justify-content: space-around;
+}
+.formlist_box{
+
+}
+.table_box{
+    width: 70%;
+}
+.form.p_4 {
+    padding: 0rem !important;
+}
+/* input公共样式 */
+/* 长度*/
+.form .el-input {
+    width: initial !important;
+	
+}
+
+.el-input__inner {
+    /* height: 80px !important; */
+    /* 背景颜色 */
+  /* background-color: #000000 !important; */
+    /* 背景图 */
+    /* background-image: none; */
+    /* 边框圆角 */
+     border-radius: 0px 20px 0px 20px !important;
+    /* 字体颜色 */
+    /* color: #00a4ff !important; */
+    /* 字体大小 */
+    /* font-size: inherit; */
+    /* 边框颜色 */
+    border: 1px solid #00a4ff !important;
+}
+/* //////////////////////////////////////////////////////////// */
+.bg {
+    background: #FFFFFF !important;
+  }
+  
+  /* 表单 */
+  .form_box {
+    padding: 0px 30px;
+  }
+  
+  /* 按钮左右布局 */
+  .btn_flex_box {
+    position: absolute;
+    width: 26rem;
+    display: flex;
+    justify-content: space-between;
+	
+    /* top: 55%; */
+  }
+  
+  /* 按钮左布局  盒子*/
+  .btn_flex_left {
+    position: relative;
+	top: 0.625rem;
+    left: -39px;
+    height: 130px;
+	/* border-radius: 1.25rem !important; */
+  /*  background-color: #000; */
+    /* top: 50%; */
+  }
+  
+  /* 按钮左布局  盒子按钮*/
+  .btn_flex_box .btn_flex_left .el-button--primary {
+    height: 100%;
+    width: 65px;
+    border-radius: 20px;
+/* 	  line-height: 9; */
+	background: url(../img/12.jpg);
+	 background-size:100% 100% !important;
+
+	 font-weight: 600 !important;
+	 	color: #FFFFFF !important;
+  }
+  
+  /* 按钮右布局  盒子*/
+  .btn_flex_right {
+   position: relative;
+   top: 0.625rem;
+   left: 9px;
+   height: 130px;
+    /* background: #000; */
+    /* top: 50%; */
+  }
+  
+  /* 按钮右布局  盒子按钮*/
+  .btn_flex_box .btn_flex_right .el-button--primary {
+    height: 100%;
+    width: 65px;
+    border-radius: 20px;
+   line-height: 6;
+	background: url(../img/12.jpg);
+	 background-size:100% 100% !important;
+	/* color: #22313f; */
+	/* font-size: 1rem; */
+	font-weight: 600 !important;
+	color: #FFFFFF !important;
+  }
+/* //////////////////////////////////////////////////////////// */
+/* 登录页  登录框 注册框 忘记密码框*/
+
+.sign_in .form {
+    max-width: 30rem !important;
+    /* 圆角边框 */
+    border-radius: 50px !important;
+    /* 边框阴影 */
+    /* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距 */
+    /* margin: 10px 10px 10px 10px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+  /*  color: #22313f; */
+    /* 盒子透明度 */
+    opacity: 1;
+    /* 背景颜色 */
+    /* background-color: #000000 !important; */
+    /* 宽度 */
+    /* width: 100px; */
+    /* 高度 */
+ /*   height: 30rem; */
+/* 	margin-top: ; */
+}
+
+/* 登录页  登录框 注册框 忘记密码框 顶部标题*/
+
+.sign_in .form h1 {
+    /*文字摆放位置*/
+   /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+	margin-bottom: 1.25rem;
+	color: #FFFFCC;
+	text-shadow:1px 1px #ccc;
+}
+
+/* 登录页  登录框 注册框 忘记密码框 input框左侧label字体样式*/
+
+.sign_in .form label {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    font-size: 17px;
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color: #FFFFCC !important;
+}
+
+/* 登录页  登录框 注册框 忘记密码框 input框样式*/
+
+.sign_in .form input {
+    /* 圆角边框 */
+    border-radius: 0px 20px 0px 20px !important;
+    /* 边框阴影 */
+    /* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距 */
+    /* margin: 10px 10px 10px 10px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+    color: #34495e  !important;
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+    background-color: #e4f1fe !important;
+    /* 宽度 */
+    /* width: 100px; */
+    /* 高度 */
+    /* height: 100x; */
+    /*文字摆放位置*/
+    text-align: center !important;
+	font-size: 16px;
+}
+
+/* 登录页  登录框内忘记密码字体样式*/
+
+/* 需要在login.vue文件夹下的 ‘忘记密码’位置加上 class="forgetthepassword" 类名 方可生效 */
+
+.sign_in .btns {
+    /*文字摆放位置*/
+  /*  text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    font-weight: 600;
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+   /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    color: #34495e ;
+	/* border: 1px #8dc6ff solid; */
+	/* background-color:#8dc6ff; */
+	border-radius: 1.25rem;
+	border: none !important;
+}
+.sign_in .btns:last-child{
+	color: #FFFFCC;
+}
+/* 登录页  忘记密码框内 取消 字体样式*/
+
+/* 需要在forgot.vue文件夹下的 ‘取消’位置加上 class="countermand" 类名 方可生效 */
+
+.sign_in .countermand {
+    /*文字摆放位置*/
+   /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+/* 忘记密码页,发送验证码按钮 */
+.el-input-group__append, .el-input-group__prepend{
+    /* 背景颜色 */
+    background-color: #8dc6ff !important;
+    /* 边框 */
+    border: 0px solid #DCDFE6 !important;
+	border-radius:1.25rem !important;
+	/* margin-left: 500px !important; */
+}
+/* --------------------------------------------------------------- */
+/* 头像下选项框 */
+.el-dropdown-menu { 
+	background-color: #FF6666 !important;
+}
+.el-dropdown-menu__item--divided:before{
+	background-color: #FF6666 !important;
+}
+/* .el-dropdown-menu__item--divided{
+	border: 1px solid #000 !important;
+	background-color: #FF6666 !important;
+} */
+.el-dropdown-menu__item {
+	color: #FFFF00 !important;
+}
+/* ------------------------------------------------------------- */
+
+/* 左侧导航栏 样式  */
+/* 左侧导航栏颜色 */
+#app .page .side {
+    /* 背景颜色 */
+   background-color: #FFFFCC !important;
+    /* 边框 */
+ /*   border-right: 2px solid #BD8387; */
+}
+/* 导航栏首页盒子 */
+#app .page .side .el-menu-item{
+	/* 背景颜色 */
+	background-color: #8dc6ff !important;
+	color: #FFFFFF !important;
+	font-size: 1.125rem;
+	}
+
+/* 导航栏主类背景色 */
+#app .page .side .el-submenu__title{
+	background-color: #8dc6ff !important;
+	color: #FFFFFF !important;
+	font-size: 1.125rem;
+	
+}
+/* 导航栏主类文字样式 */
+#app .page .side .el-submenu__title span{
+color: #FFFFFF !important;
+	font-size: 1.125rem;
+	/* font-weight: 600; */
+	
+}
+
+/* 导航栏子类外框背景色 */
+#app .page .side .el-submenu .el-menu {
+	  background-color: #FFFFCC !important;
+}
+
+/* 左侧导航栏选中文字样式 */
+
+#app .page .side .el-menu-item.is-active{
+	color:  #6eb6ff  !important;
+	font-size: 1.25rem;
+	/* font-weight: 600; */
+}
+
+
+/* 左侧导航栏盒子内分支导航样式 */
+
+#app .page .side .el-submenu li{
+    /* 背景颜色 */
+ background-color: #FFFFFF  !important;
+    /* 下边框 */
+ /*   border-bottom: 3px solid #f06868; */
+    /* 圆角 */
+   /* border-radius:  1.875rem  0.625rem; */
+    /* 下外边距 */
+   margin: 10px;
+   /* 文字颜色 */
+   color: #6c737e !important;
+   /* 文字大小 */
+   font-size: 1.0625rem;
+   /* 边框 */
+  /* border: 2px dotted #6eb6ff; */
+   /* 文本对齐方式 */
+   text-align: center;
+   /* 宽度 */
+   width: 80%;
+   -webkit-box-shadow: 6px 7px 6px 3px rgba(159,202,245,1);
+   -moz-box-shadow: 6px 7px 6px 3px rgba(159,202,245,1);
+   box-shadow: 6px 7px 6px 3px rgba(159,202,245,1);
+
+}
+
+/* 左侧导航栏 首页图标 样式  */
+#app .page .side .el-icon-s-home {
+ /*文字摆放位置*/
+ /*  text-align: left !important; */
+   /* 文字大小 */
+   /* font-size: 50px !important; */
+   /* font-weight: 600; */
+   /* 字体倾斜 */
+   /* font-style:oblique; */
+   /* 下划线 */
+   /* text-decoration:underline; */
+   /* 下划线颜色 */
+   /* text-decoration-color: #00a4ff; */
+   /* 文字颜色 */
+  color:  #FF6666 !important;
+/*  display: none; */
+}
+
+
+/* 左侧导航栏 未选中时图标样式  样式  */
+#app .page .side i {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color:  #FF6666;
+	
+}
+/* 左侧导航栏缩进 菜单外盒子 */
+.el-menu--vertical {
+    /* 背景颜色 */
+    background-color: #30333A !important;
+}
+/* 左侧导航栏缩进 菜单内盒子 */
+.el-menu--vertical .el-menu{
+background-color:#30333A !important;	
+}
+/* 左侧导航栏缩进 菜单单条盒子 */
+.el-menu--vertical .el-menu-item{
+	/* 背景颜色 */
+	 background-color: #0E82CF  !important;
+	    /* 下边框 */
+	/*   border-bottom: 1px solid #f07b3f; */
+	    /* 圆角 */
+	  /* border-radius: 1.25rem; */
+	    /* 下外边距 */
+	 /*  margin: 10px; */
+	   /* 文字颜色 */
+	   color: #ffffff !important;
+	   /* 文字大小 */
+	   font-size: 1rem;
+	   /* 边框 */
+	  /* border: 2px dotted #6eb6ff; */
+	   /* 文本对齐方式 */
+	   text-align: center;
+	   /* 宽度 */
+	   width: 100%;
+}
+
+/* 鼠标点击以后样式 */
+.el-menu--vertical .el-menu-item:hover{
+  display: block;
+  background-color: #1E628F !important;
+  color:  #ffffff  !important;
+  /* font-size: 1.5rem; */
+  /* font-weight: 600; */
+}
+#app .page article{
+    /* 背景颜色 */
+    background-color:#e4f1fe;
+}
+
+/* 左侧导航栏文字样式 */
+
+
+
+/* 顶部导航栏图标样式 */
+
+ul li i{
+    color: #FF6666  !important;
+	font-size: 17px !important;
+}
+/* 左侧导航栏 选中后的样式 样式  */
+
+#app .page .side .li {
+    /* 背景颜色 */
+    background-color: #80d6ff !important;
+}
+/* 左侧导航栏 选中后的样式 样式  */
+c
+
+/* 左侧导航栏 选中后文字及图标样式 样式  */
+#app .page .side .el-icon-s-home {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color: #00a4ff !important
+}
+
+
+
+/* 左侧导航栏 未选中时图标样式  样式  */
+
+#app .page .side i {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+  /*  color: #0000FF; */
+}
+
+/* 左侧导航栏 未选中时图标样式  样式  */
+
+#app .page .side .el-submenu__title span {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+
+/*  顶部栏 样式 */
+
+#app header {
+    /* 背景颜色 */
+    background-color: #3399CC  !important;
+	border: 1px dashed #FF6666;
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+}
+
+/*  顶部栏内 左边图标样式 */
+
+#app header .action_left .el-icon-menu {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color: #FF6666;
+}
+/*  顶部栏内 左边图标样式  点击后样式*/
+#app header .action_left .el-icon-s-grid{
+	 color: #FF6666;
+}
+/*  顶部栏内 右边头像样式 */
+
+#app header .action_right .el-dropdown .el-avatar {
+    /* 圆角边框 */
+    border-radius: 20px !important;
+    /* 边框阴影 */
+    /* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距 */
+    /* margin: 10px 10px 10px 10px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+    /* color: #00A4FF; */
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+    /* background-color: #000000 !important; */
+    /* 宽度 */
+    /* width: 100px; */
+    /* 高度 */
+    /* height: 100x; */
+}
+
+/*  顶部栏内 右边用户id字体样式 */
+
+#app header .action_right .el-dropdown span:nth-child(2) {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+
+/* ---------------------------------- */
+
+/* 首页 ‘欢迎使用后台管理系统’ 字体样式 */
+
+#root_index .container-fluid .root_index_title {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+
+/* 首页 订单展示框 样式 */
+
+#root_index .container-fluid .card {
+    /* 圆角边框 */
+    border-radius: 20px !important;
+    /* 边框阴影 */
+    box-shadow: 0px 0px 1px 1px #FFFF00;
+    /* 外边距 */
+    /* margin: 10px 10px 10px 10px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+    /* color: #00A4FF; */
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+    /* background-color: #000000 !important; */
+    /* 宽度 */
+    /* width: 100px; */
+    /* 高度 */
+    /* height: 100x; */
+}
+
+/* 首页 订单展示框 样式 */
+
+#root_index .container-fluid .card div {
+    /*文字摆放位置*/
+    text-align: center !important;
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+   /* font-style:oblique; */
+    /* 下划线 */
+    text-decoration:underline;
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+
+/*----------------------------------------------------------------------  */
+/* 列表页  查询字段名称 文字样式*/
+.el-form-item__label{
+	/* 颜色 */
+	color: #303841 !important;
+	/* 字体大小 */
+	font-size: 16px !important;
+	
+	}
+
+/* -----------------------------------------------------------------*/
+/* 查询按钮*/
+	.el-button.el-button--primary{
+	   
+	    /* 按钮内字体颜色 */
+	    color: #22313f !important;
+	    /* 字体大小 */
+	    font-size: 17px !important;
+	    /* 字体加粗 */
+	    font-weight: 600 !important;
+	    /* 圆角 */
+	  /*  border-radius: 20px !important; */
+	    /* 背景图 */
+	   /* background-image: url(../img/button_bg.png) !important; */
+	    /* 背景图大小 */
+	  /* background-size: 100% 100% !important; */
+	    /* 边框 */
+	   /* border: 0px solid #DCDFE6 !important; */
+	    /* 背景颜色 */
+	   background-color:#FF6666 !important;
+	   border: none;
+	}
+	
+	/* 测试 */
+	/* .dome_but button{
+		background-color: #f2ff9b !important;
+	}
+	 */
+	
+	/* 重置按钮 */
+	.el-button.el-button--default{
+	   
+	 /* 按钮内字体颜色 */
+	  color: #22313f !important;
+	    /* 字体大小 */
+	    font-size: 17px !important;
+	    /* 字体加粗 */
+	    font-weight: 600 !important;
+	    /* 圆角 */
+	  /*  border-radius: 20px !important; */
+	    /* 背景图 */
+	   /* background-image: url(../img/button_bg.png) !important; */
+	    /* 背景图大小 */
+	  /* background-size: 100% 100% !important; */
+	    /* 边框 */
+	   /* border: 0px solid #DCDFE6 !important; */
+	    /* 背景颜色 */
+	   background-color: #8dc6ff !important;
+	  margin-right: 30px !important;
+	}
+	/* 删除按钮 */
+	.el-button.float-right.el-button--danger{
+	   
+	 /* 按钮内字体颜色 */
+	   color: #22313f !important;
+	   /* 字体大小 */
+	   font-size: 17px !important;
+	   /* 字体加粗 */
+	   font-weight: 600 !important;
+	   /* 圆角 */
+	  /* border-radius: 20px !important; */
+	   /* 背景图 */
+	  /* background-image: url(../img/button_bg.png) !important; */
+	   /* 背景图大小 */
+	 /* background-size: 100% 100% !important; */
+	   /* 边框 */
+	  /* border: 0px solid #DCDFE6 !important; */
+	   /* 背景颜色 */
+	  background-color:  #FFFF00 !important;
+	  margin-left: 0px !important;
+	}
+	/* 添加按钮 */
+	.el-button.el-button--default.el-button--primary{
+		/* 按钮内字体颜色 */
+		  color: #22313f !important;
+		  /* 字体大小 */
+		  font-size: 17px !important;
+		  /* 字体加粗 */
+		  font-weight: 600 !important;
+		  /* 圆角 */
+		  /* border-radius: 20px !important; */
+		  /* 背景图 */
+		 /* background-image: url(../img/button_bg.png) !important; */
+		  /* 背景图大小 */
+		/* background-size: 100% 100% !important; */
+		  /* 边框 */
+		 /* border: 0px solid #DCDFE6 !important; */
+		  /* 背景颜色 */
+		 background-color: #3399CC !important;
+		 margin-right: 4px !important;
+	}
+	
+	/* 列表边框线公共样式 */
+	
+	/* 列表边框线 外边框 公共样式 */
+	
+	.el-table--border  {
+	  /*  border: 1px solid #00a4ff !important; */
+	}
+	
+	/* 列表边框线 边框边框 头部公共样式 */
+	.el-table th{
+	    /* border: 1px solid blue !important; */
+		color: #34495e  !important;
+		font-size: 1.0625rem;
+		font-weight: 37.5rem;
+		background-color: #8dc6ff  !important;
+	}
+	/* 列表边框线 边框边框 身体公共样式 */
+	.el-table td {
+	/*   border: 1px solid red !important; */
+		color: #34495e !important;
+		background-color: #FFFFCC !important;
+	}
+
+/* .el-table tr{
+	background-color: #8dc6ff  !important;
+} */
+/* .el-table {
+    color: #34495e !important;
+	background-color: #FFCCCC !important;
+} */
+
+/* 列表框内 操作 下 按钮样式 */
+
+/* 按钮鼠标未移入样式 */
+
+#app .el-button--primary.is-plain {
+    /* 字体大小 */
+    /* font-size: 12px; */
+    /* 边框圆角 */
+    /* border-radius: 50px; */
+    /* 字体样式 */
+  /*  color: #3399CC; */
+    /* 背景颜色 */
+  /*  background: #FFFF00; */
+    /* 边框颜色 */
+    /* border-color: #FF6666; */
+}
+
+/* 按钮鼠标移入样式 */
+
+#app .el-button--primary.is-plain:hover {
+    /* 字体大小 */
+    /* font-size: 12px; */
+    /* 边框圆角 */
+    /* border-radius: 50px; */
+    /* 字体颜色 */
+    /* color: #FFF; */
+    /* 背景颜色 */
+    /* background-color: #000; */
+    /* 边框颜色 */
+    /* border-color: #409EFF; */
+}
+.el-button.el-button--small.is-plain.el-button--primary{
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+	
+.el-image{
+	height: 100%;
+	width: 100%;
+}
+.el-avatar--circle img{
+	height: 100% !important;
+	width: 100% !important;
+}
